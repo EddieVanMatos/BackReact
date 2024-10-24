@@ -1,0 +1,14 @@
+2024-10-24 11:03:07.703322-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]COURSE"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+COURSE [42001-224]
+2024-10-24 11:11:17.899484-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ACTIVITY\000d\000a[*]SELECT * FROM VIDEO_ACTIVITY\000d\000aSELECT * FROM VIDEO_CLASS"; SQL statement:
+SELECT * FROM ACTIVITY
+SELECT * FROM VIDEO_ACTIVITY
+SELECT * FROM VIDEO_CLASS [42000-224]
+2024-10-24 11:11:35.554585-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VIDEO_ACTIVITY" not found; SQL statement:
+SELECT * FROM VIDEO_ACTIVITY [42102-224]
+2024-10-24 11:28:48.176667-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VIEDO_CLASS" not found; SQL statement:
+SELECT * FROM VIEDO_CLASS [42102-224]
